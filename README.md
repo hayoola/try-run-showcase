@@ -8,8 +8,8 @@ After cloning, do `npm install` to get prepared for run.
 
 ## Spec via test
 
-In the project directory, you can run `npm test` to fire the `tryRun` unit tests.
-Those tests are in the `src/try-run.test.js` directory, which is the best place to learn about its different use cases.
+In the project directory, you can run `npm test` to fire the `tryRun` unit tests. (You man need to do a `npm test a` to force running all tests, since Jest by default run tests that has been written after the last commit)
+Unit tests are in the `src/try-run.test.js` file, which is the best place to learn about different use cases of the `tryRun` function.
 
 
 
